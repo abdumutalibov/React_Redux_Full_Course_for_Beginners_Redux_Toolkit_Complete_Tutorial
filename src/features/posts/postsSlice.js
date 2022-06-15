@@ -40,7 +40,7 @@ export const deletePost = createAsyncThunk('posts/deletePost', async (initialPos
     } catch (err) {
         return err.message;
     }
-})
+}) 
 
 const postsSlice = createSlice({
     name: 'posts',
